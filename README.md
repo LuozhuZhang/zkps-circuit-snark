@@ -36,6 +36,11 @@ template Multiplier() {
 component main = Multiplier();
 ```
 
+
 # References
 
 [1] : Create your first [zero-knowledge snark circuit](https://blog.iden3.io/first-zk-proof.html) using circom and snarkjs
+
+[2] : Explaining SNARKs Part I: [Homomorphic Hidings](https://electriccoin.co/blog/snark-explain/)
+
+[3] : [Zk-SNARKs: Under the Hood](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6)
