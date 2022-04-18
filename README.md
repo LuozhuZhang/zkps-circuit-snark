@@ -1,7 +1,13 @@
 # circom-snark
 A zk-SNARK implementation, use [circom](https://github.com/iden3/circom) and [snarkjs](https://github.com/iden3/snarkjs)
 
-# ToDo
+# 启动教程
+
+1. 安装依赖
+```
+yarn global add circom
+yarn global add snarkjs
+```
 
 mkdir circuit.circom
 
