@@ -14,4 +14,6 @@ template Multiplier() {
    c <== a*b;
 }
 
+// component类似于其他编程语言中的Object
+// Doc：https://docs.circom.io/circom-language/the-main-component/
 component main = Multiplier();
