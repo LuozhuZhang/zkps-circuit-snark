@@ -17,3 +17,9 @@ template Multiplier() {
 // component类似于其他编程语言中的Object
 // Doc：https://docs.circom.io/circom-language/the-main-component/
 component main = Multiplier();
+
+
+// run circom circuit.circom --r1cs --wasm --sym
+// 1）--r1cs outputs the constraints in r1cs format
+// 2）--wasm Compiles the circuit to wasm
+// 3）--sym outputs witness in sym format 
