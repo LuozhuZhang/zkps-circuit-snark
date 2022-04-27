@@ -4,7 +4,7 @@
   </a>
   <p align="center">
     <a href="https://github.com/LuozhuZhang/zkps-circuit-demo/graphs/contributors">
-      <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/hedgezhu/Awesome-zkEVM">
+      <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/LuozhuZhang/zkps-circuit-demo">
     </a>
     <a href="http://makeapullrequest.com">
       <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
