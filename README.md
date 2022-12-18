@@ -21,9 +21,9 @@ A zk-SNARK implementation, use [circom](https://github.com/iden3/circom) and [sn
 
 Welcome to submit any issues or prs, also welcome DM me via [twitter](https://twitter.com/LuozhuZhang)
 
-# The Content
+# The Process
 
-### 一、initialize and setup
+### 1. initialize and setup
 
 Create random numbers and circuits, get pk and vk through trusted setup
 
@@ -142,7 +142,7 @@ snarkjs groth16 setup circuit.r1cs pot12_final.ptau circuit_0000.zkey
 snarkjs zkey export verificationkey circuit_final.zkey verification_key.json
 ```
 
-### 二、create proof
+### 2. create proof
 
 ![image](https://user-images.githubusercontent.com/70309026/164192749-c32b84ce-a6c3-4939-b93b-b107dee249a4.png)
 
@@ -151,7 +151,7 @@ Import pk、witness（s，private input）and x（public input），export proof
 snarkjs plonk prove circuit_final.zkey witness.wtns proof.json public.json
 ```
 
-### 三、verify proof
+### 3. verify proof
 
 ![image](https://user-images.githubusercontent.com/70309026/164193092-e1f4ba0e-9af4-4bc9-929b-6e624d2ed7b7.png)
 
@@ -164,7 +164,7 @@ snarkjs plonk verify verification_key.json public.json proof.json
 snarkjs groth16 verify verification_key.json public.json proof.json
 ```
 
-### 四、deploy verification contract
+### 4. deploy verification contract
 
 Export solidity file，contracts can be deployed via [Remix](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null)，you can call contract after deploy verifier.sol
 ```
